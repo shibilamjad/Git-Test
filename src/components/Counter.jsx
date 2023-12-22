@@ -9,7 +9,7 @@ export function Counter({ count, handleInc, handleDec }) {
         </button>
       )}
       <h1>Count : {count}</h1>
-      {count < 20 && (
+      {count < 15 && (
         <button className="btn" onClick={handleInc}>
           +
         </button>

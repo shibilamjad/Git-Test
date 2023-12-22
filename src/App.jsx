@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   function handleInc() {
-    if (count >= 20) return;
+    if (count >= 15) return;
     setCount((prev) => prev + 1);
   }
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Counter count={count} handleInc={handleInc} handleDec={handleDec} />
-      {count === 20 && <Message />}
+      {count === 15 && <Message />}
     </>
   );
 }
