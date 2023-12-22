@@ -1,0 +1,11 @@
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.btn {
+  background-color: #535bf2;
+  color: white;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+}
