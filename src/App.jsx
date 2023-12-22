@@ -14,7 +14,11 @@ function App() {
     if (count <= 0) return;
     setCount((prev) => prev - 1);
   }
-  return <Counter count={count} handleInc={handleInc} handleDec={handleDec} />;
+  return (
+    <>
+      <Counter count={count} handleInc={handleInc} handleDec={handleDec} />
+    </>
+  );
 }
 
 export default App;
