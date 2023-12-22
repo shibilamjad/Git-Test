@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Counter } from "./components/Counter";
+import Message from "./components/message";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Counter count={count} handleInc={handleInc} handleDec={handleDec} />
+      <Message />
     </>
   );
 }
