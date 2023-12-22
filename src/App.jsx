@@ -18,6 +18,7 @@ function App() {
   return (
     <>
       <Counter count={count} handleInc={handleInc} handleDec={handleDec} />
+      {count === 0 && <Message />}
       {count === 10 && <Message />}
     </>
   );
